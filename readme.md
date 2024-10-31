@@ -1,1 +1,5 @@
-#Personal portfolio  
+# Personal portfolio  
+
+Portfólio de atividades pessoais.
+
+Em construção.  
