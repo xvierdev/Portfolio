@@ -1,1 +1,10 @@
 /* Main style for my personal portfolio. */
+/* Respeite o código ;D */
+body{
+    background-color: antiquewhite;
+}
+
+ul.summary li{
+    list-style-type: none;
+    padding: 5px;
+}
