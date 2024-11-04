@@ -1,8 +1,8 @@
 /* Main style for my personal portfolio. */
 /* Respeite o código ;D */
-ul.summary li{
-    list-style-type: none;
-    padding: 5px;
+
+.main{
+    background-color: antiquewhite;
 }
 
 h2{
@@ -11,7 +11,5 @@ h2{
 
 footer{
     text-align: center;
-    /* font-family: Ballet; */
-    /* font-size: 30px; */
     font-weight: bold;
 }
