@@ -1,5 +1,7 @@
 # Portfólio Pessoal
 
+[Link do Deploy no Vercel.app](https://portfolio-wesley-xaviers-projects.vercel.app)
+
 1. Plataforma Github Pages ou Vercelo
     - Porfólio online, plataforma GitHub Pages ou Vercel, criar um site pessoal usando HTML/CSS  
 
