@@ -11,5 +11,56 @@ h2{
 
 footer{
     text-align: center;
-    font-weight: bold;
+    /* align-items: center; */
+    align-content: center;
+    /* font-weight: bold; */
+    /* margin-bottom: 0; */
+    /* display: inline-flex; */
+    width: 100%;
+    height: 60px;
+}
+
+.icon{
+    width: 40px;
+}
+
+.signature{
+    font-family: 'Dancing Script', cursive;
+    font-size: larger;
+    text-shadow: 0px 0px 10px white;
+}
+
+/* Footer section */
+footer p{
+    margin: auto;
+    /* display: block; */
+    /* align-self: center; */
+    /* color:blueviolet; */
+}
+
+footer a{
+    /* font-family: roboto; */
+    text-transform: lowercase;
+}
+
+footer a:link{
+    color:yellow;
+}
+
+footer a:visited{
+    color:gold;
+}
+
+footer a:hover{
+    color: orange;
+}
+
+footer a:active{
+    color:lime;
+}
+
+/* Especific items styles */
+
+#age{
+    font-family: Georgia, serif;
 }
