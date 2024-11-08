@@ -30,6 +30,19 @@ footer{
     text-shadow: 0px 0px 10px white;
 }
 
+.button{
+    /* font-size:; */
+    align-content: center;
+    background-color: black;
+    color:white;
+    height: 28px;
+    /* display: block; */
+    /* display: inline-block; */
+}
+.button img{
+    width: 30px;
+}
+
 /* Footer section */
 footer p{
     margin: auto;
@@ -63,4 +76,15 @@ footer a:active{
 
 #age{
     font-family: Georgia, serif;
+}
+
+#init{
+    background-color: #00e1ff69;
+}
+
+#nav-top{
+    background-color: #00e1ff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-weight: 600; */
+    /* text-shadow: 0px 0px 2px black; */
 }
