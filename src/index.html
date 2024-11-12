@@ -10,15 +10,20 @@
     <title>Wesley Xavier - Portfólio</title>
 </head>
 
-<body class="main" id="init">
-    <nav class="navbar navbar-expand" id="nav-top">
+<body class="main">
+    <header class="container-fluid text-center p-3" id="init">
+        <h1>Wesley Xavier</h1>
+        <strong>Estudante de análise e desenvolvimento de sistemas</strong>
+    </header>
+    <nav class="navbar navbar-expand sticky-top" id="nav-top">
         <div class="container-fluid">
             <ul class="navbar-nav">
                 <!-- <li class="nav-item"><a class="nav-link" href="#start">Início</a></li> -->
+                <li class="nav-item"><a class="nav-link" href="#init">Início</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contacts">Contato</a></li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Minha Trajetória</a>
-                    <ul class="dropdown-menu">
+                    <ul class="dropdown-menu" style="background-color: gray;">
                         <li><a class="dropdown-item" href="#curriculum">Currículo</a></li>
                         <li><a class="dropdown-item" href="#projects">Projetos</a></li>
                         <li><a class="dropdown-item" href="#skills">Habilidades</a></li>
@@ -31,11 +36,11 @@
         </div>
     </nav>
 
-    <header id="start" class="container-fluid my-4">
-        <div class="row">
+    <section id="start" class="container-fluid my-4">
+        <header class="row">
             <!-- Profile Picture -->
-            <div class="col-sm-3 mb-3">
-                <div class="card" style="width:100%; max-width: 250px; min-width: 200px;">
+            <div class="col-sm-3 mb-4">
+                <div class="card" style="width:fit-content; margin:auto;"">
                     <img class="card-img-top p-1 rounded-3" src="./images/profile.jpg" alt="Card image" style="width:100%">
                     <div class="card-body">
                         <h4 class="card-title text-center">Wesley Xavier</h4>
@@ -45,19 +50,17 @@
             </div>
 
             <!-- About-me -->
-            <div class="col-sm-8 container-fluid">
-                <div class="px-3">
+            <article class="col-sm-7">
+                <div class="px-1">
                     <h1 title="X'vierdev!">Sobre mim</h1>
                     <p>Olá, eu sou Wesley Xavier, tenho 32 anos e moro na cidade de São José dos Campos.</p>
                     <p>Gosto muito de desmontar coisas e descobrir como elas são por dentro e como funcionam, isso me levou por diversos caminhos para compreender e construir minhas próprias invesões.</p>
                     <p>Dedico uma parte do meu tempo a questões filosóficas, refletir sobre a vida e procurar investigar as questões mais fundamentais do ser humano, de onde viemos? Para onde vamos? Qual o sentido da vida?</p>
                     <p>Perserguindo essas questões pude compreender melhor o sentido dos valores humanos, estudar as religiões comparadas e a história humana de forma geral me ajudam a construir uma vida mais equilibrada e com grande signficado pessoal.</p>
                 </div>
-            </div>
-        </div>
-    </header>
-    
-    <hr>    
+            </article>
+        </header>
+    </section>
     
     <main>
         <section id="about" class="container-fluid my-4">
@@ -66,7 +69,7 @@
             <p>Estudante de <strong><em>Análise e Desenvolvimento de Sistemas</em></strong> pela <a href="https://fatecsjc-prd.azurewebsites.net/" target="_blank" title="Faculdade de Técnologia de São Paulo.">FATEC</a> em São José dos Campos.</p>            <p>Meu foco principal é a aprendizagem de diferentes técnologias que permitam a construção de soluções eficientes e escaláveis para desafios do cotidiano. Tenho especial interesse pela plataforma .NET usando a linguagem de programação C# e F#.</p>
             <p>Atualmente trabalho como <em>instrutor de informática, hardware e robótica</em> na <strong>Microcamp</strong>, estou buscando opotunidades de empregar minhas habilidades para desenvolver aplicações úteis para solução de problemas do cotidiano.</p>
         </section>
-        <hr>
+        
         <section id="curriculum" class="container-fluid my-4">
             <h2><img src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/external-curriculum-leadership-justicon-lineal-color-justicon.png" alt="external-curriculum-leadership-justicon-lineal-color-justicon" class="icon">Currículo</h2>
             <!--  Currículo: Resumo de sua formação, cursos e cerJficações. -->
@@ -76,7 +79,7 @@
                 <li><a href="https://drive.google.com/file/d/1tRjEAy-Rl2sI5wR0B7DlIn84bO6YVUKU" title="Curriculum Vitae at Google Docs." target="_blank">Curriculum Vitae</a></li>
             </ul>
         </section>
-        <hr>
+        
         <section id="projects" class="container-fluid my-4">
             <h2><img src="https://img.icons8.com/dusk/64/group-of-projects.png" alt="group-of-projects" class="icon"> Projetos</h2>
             <!-- Projetos: Destaque os principais projetos acadêmicos, explicando o problema, sua abordagem, tecnologias uJlizadas e os resultados. -->
@@ -89,7 +92,7 @@
                 em uma máquina virtual na AWS.
             </p>
         </section>
-        <hr>
+        
         <section id="skills" class="container-fluid my-4">
             <h2><img src="https://img.icons8.com/dusk/64/admin-settings-male.png" alt="admin-settings-male" class="icon"> Habilidades</h2>
             <!-- Habilidades: Liste suas principais habilidades técnicas e teóricas (Soft Skills). -->
@@ -111,7 +114,7 @@
                 <li>Soluções criativas</li>
             </ul>         
         </section>
-        <hr>
+        
         <section id="docs_and_works" class="container-fluid my-4">
             <h2><img src="https://img.icons8.com/doodle/48/documents.png" alt="documents" class="icon"> Documentos e Trabalhos</h2>
             <!--  Documentos e Trabalhos: Adicione arJgos, TCCs, trabalhos de pesquisa ou relatórios relevantes. -->
@@ -121,37 +124,36 @@
                 de desempenho escolar, registrando o desempenho dos alunos nas disciplinas e produzindo indicadores para avaliar possíveis mudanças na metodologia de ensino e apoiar a equipe gestora na tomada de decisão.</p>
             <p>Utilizando a estrutura <abbr title="Model View Controller">MVC</abbr>, usando como linguagens HTML, CSS e Javascript no frontend e para o Backend utilizamos PHP e MySQL para o banco de dados.</p>
         </section>
-            <hr>
-            <section id="certificates" class="container-fluid my-4">
-                <h2><img src="https://img.icons8.com/fluency/48/warranty-card.png" alt="warranty-card" class="icon"> Certificados</h2>
-                <!-- Certificações: Inclua imagens ou PDFs de certificados obtidos em cursos ou eventos relevantes. -->
-                <h3>NGD Linux Essentials - Cisco Network Academy</h3>
-                <p><a href="./docs/Wesley_Xavier-NDG_Linux_Unhatc-certificate.pdf" title="Cisco Linux Certificate." target="_blank">Certificado</a> de comandos do linux obtido na disciplina de arquitetura e organização de computadores na FATEC ao concluir o curso online NGD Linux Essentials da Cisco Network Academy.</p>
-            </section>
-            <hr>
-            <article id="interest" class="container-fluid my-4">
-                <h2><img src="https://img.icons8.com/external-flaticons-flat-flat-icons/64/external-star-astrology-flaticons-flat-flat-icons.png" alt="external-star-astrology-flaticons" class="icon">Interesses</h2>
-                <ul>
-                    <li>Desafios de Programação</li>
-                    <li>Programação Orientada a Objetos</li>
-                    <li>Infraestrutura de Aplicações</li>
-                    <li>Plataforma .Net Core</li>
-                    <li title="Internet das coisas.">ioT</li>
-                    <li title="F Sharp">F#</li>
-                </ul>
-            </article>
-            <hr>
-            <article id="contacts" class="container-fluid my-4">
-                <h2><img src="https://img.icons8.com/dusk/64/new-contact.png" alt="new-contact" class="icon"> Contato</h2>
-                <h3>Contate-me</h3>
-                <!-- Contato: Finalize com seus dados de contato, links para LinkedIn, GitHub ou outro canal relevante. -->
-                <a href="https://github.com/xvierdev"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github&logoSize=auto"></a>
-                <a href="https://www.linkedin.com/in/xvierbr/" target="_blank" title="LinkedIn Profile Wesley Xavier."><img alt="Static Badge" src="https://img.shields.io/badge/Linkedin-black?style=for-the-badge&logo=linkedin&logoSize=auto&color=blue"></a>
-                <a href="mailto:wesley.xvier@gmail.com" title="E-mail link to wesley.xvier@gmail.com"><img alt="Static Badge" src="https://img.shields.io/badge/email-black?style=for-the-badge&logo=gmail&logoColor=white&logoSize=auto"></a>
-            </article>
-        </main>
-        <footer class="bg-dark text-white">
-        <p><a href="#init" title="Topo da página.">Início</a> - <span class="signature">Wesley Xavier</span> - <span id="age"></span></p>
+            
+        <section id="certificates" class="container-fluid my-4">
+            <h2><img src="https://img.icons8.com/fluency/48/warranty-card.png" alt="warranty-card" class="icon"> Certificados</h2>
+            <!-- Certificações: Inclua imagens ou PDFs de certificados obtidos em cursos ou eventos relevantes. -->
+            <h3>NGD Linux Essentials - Cisco Network Academy</h3>
+            <p><a href="./docs/Wesley_Xavier-NDG_Linux_Unhatc-certificate.pdf" title="Cisco Linux Certificate." target="_blank">Certificado</a> de comandos do linux obtido na disciplina de arquitetura e organização de computadores na FATEC ao concluir o curso online NGD Linux Essentials da Cisco Network Academy.</p>
+        </section>
+        
+        <section id="interest" class="container-fluid my-4">
+            <h2><img src="https://img.icons8.com/external-flaticons-flat-flat-icons/64/external-star-astrology-flaticons-flat-flat-icons.png" alt="external-star-astrology-flaticons" class="icon">Interesses</h2>
+            <ul>
+                <li>Desafios de Programação</li>
+                <li>Programação Orientada a Objetos</li>
+                <li>Infraestrutura de Aplicações</li>
+                <li>Plataforma .Net Core</li>
+                <li title="Internet das coisas.">ioT</li>
+                <li title="F Sharp">F#</li>
+            </ul>
+        </section>
+        
+    </main>
+    <footer>
+        <section id="contacts" class="container-fluid my-4">
+            <h2><img src="https://img.icons8.com/dusk/64/new-contact.png" alt="new-contact" class="icon"> Contato</h2>
+            <h3>Contate-me</h3>
+            <!-- Contato: Finalize com seus dados de contato, links para LinkedIn, GitHub ou outro canal relevante. -->
+            <a href="https://github.com/xvierdev"><img alt="Static Badge" src="https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github&logoSize=auto"></a>
+            <a href="https://www.linkedin.com/in/xvierbr/" target="_blank" title="LinkedIn Profile Wesley Xavier."><img alt="Static Badge" src="https://img.shields.io/badge/Linkedin-black?style=for-the-badge&logo=linkedin&logoSize=auto&color=blue"></a>
+            <a href="mailto:wesley.xvier@gmail.com" title="E-mail link to wesley.xvier@gmail.com"><img alt="Static Badge" src="https://img.shields.io/badge/email-black?style=for-the-badge&logo=gmail&logoColor=white&logoSize=auto"></a>
+        </section>        
     </footer>
     <script src="./scripts/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
